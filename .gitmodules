@@ -1,0 +1,9 @@
+[submodule "roles/ansible-role.ansible-playbook"]
+	path = roles/ansible-role.ansible-playbook
+	url = https://github.com/awltux/ansible-role.ansible-playbook.git
+[submodule "roles/ansible-role-docker-ce"]
+	path = roles/ansible-role-docker-ce
+	url = https://github.com/haxorof/ansible-role-docker-ce.git
+[submodule "roles/ansible-role.openstack-hardening"]
+	path = roles/ansible-role.openstack-hardening
+	url = https://github.com/openstack/ansible-hardening.git

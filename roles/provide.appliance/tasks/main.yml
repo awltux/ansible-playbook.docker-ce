@@ -1,0 +1,11 @@
+---
+
+- name: "install docker-ce role"
+  include_role: 
+    name: "ansible-role-docker-ce"
+    
+- name: "Apply CentOS hardening role"
+  include_role: 
+    name: "ansible-role.openstack-hardening"
+    
+    
