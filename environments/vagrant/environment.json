@@ -9,7 +9,7 @@
   "natNetAddrMask": "255.255.255.0",
   "nodeGroups": [
     { 
-      "hostnameBase": "test",  
+      "hostnameBase": "docker-ce",  
       "nodeGroup": "appliance",
       "osFamily": "linux",
       "imageNameBase": "centos/7",
@@ -22,7 +22,7 @@
       "cpu": 4
     },
     { 
-      "hostnameBase": "test-provisioner",
+      "hostnameBase": "docker-ce-provisioner",
       "nodeGroup": "provisioner",
       "osFamily": "linux",
       "imageNameBase": "centos/7",
