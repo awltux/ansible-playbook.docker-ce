@@ -3,7 +3,11 @@
 - name: "install docker-ce role"
   include_role: 
     name: "ansible-role-docker-ce"
-    
+
+- name: "include docker specific tasks"
+  include_tasks: 
+    file: "docker-ce.yml"
+
 - name: "Apply CentOS hardening role"
   include_role: 
     name: "ansible-role.openstack-hardening"
