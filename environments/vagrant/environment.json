@@ -16,7 +16,7 @@
       "imageVersionBase": "1905.1",
       "imageName": "vagrant-base",
       "imageVersion": "0",
-      "addrStart": 122,
+      "addrStart": 123,
       "nodeCount": 1,
       "memory": 4096,
       "cpu": 4
@@ -29,7 +29,7 @@
       "imageVersionBase": "1905.1",
       "imageName": "vagrant-base",
       "imageVersion": "0",
-      "addrStart": 22,
+      "addrStart": 23,
       "nodeCount": 1,
       "memory": 4096,
       "cpu": 4
