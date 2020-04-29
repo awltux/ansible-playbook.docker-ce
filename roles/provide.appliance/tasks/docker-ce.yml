@@ -1,18 +1,5 @@
 ---
 
-- name: Libraries for docker_container task use python2 version of pip
-  yum:
-    name: python2-pip
-
-- name: use latest version of pip for python2
-  pip:
-    name: pip
-    state: latest
-
-- name: Install python2 version of docker-py using pip
-  pip:
-    name: docker
-
 - name: "Add ansible user {{ lookup('env', 'USER') }} to docker group"
   user:
     name: "{{ lookup('env', 'USER') }}"

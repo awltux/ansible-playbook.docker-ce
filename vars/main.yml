@@ -1,1 +1,4 @@
 ---
+
+docker_pip_upgrade: false
+docker_additional_packages_pip: [ docker ]
